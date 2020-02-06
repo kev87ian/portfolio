@@ -1,5 +1,8 @@
 html {
-  background: url("bg.jpg") no-repeat center center fixed;
+  background: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   font-family: 'Handlee', cursive;
   font-weight: 200;
@@ -13,6 +16,7 @@ h1{
 }
 
 /* GREY background color to the top navigation */
+
 .topnav {
     background-color: dimgray;
     overflow: hidden;
