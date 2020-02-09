@@ -1,6 +1,6 @@
 # portfolio
 # Kevin's Portfolio
-#### 10-2-20#### By **Kevin Mathenge**
+#### 10-2-2020 By **Kevin Mathenge**
 ## Description
 The project is a brief but concise description of my professional development.
 ## Known Bugs
