@@ -1,19 +1,18 @@
 # portfolio
-# {Kevin's portfolio}
-#### {10-2-20}
-#### By **{Kevin Mathenge}**
+# Kevin's Portfolio
+#### 10-2-20#### By **Kevin Mathenge**
 ## Description
-{The project is a brief but concise description of my professional development}
+The project is a brief but concise description of my professional development.
 ## Known Bugs
-{The forms do not actually submit the data}
+The forms do not actually submit the data.
 ## Technologies Used
-{It was made using HTML and CSS only.}
+It was made using HTML and CSS only.
 ## Support and contact details
-{Incase you discover new bugs, or have suggestions and/or feedback, reach out via kelvinian87@gmail.com}
+Incase you discover new bugs, or have suggestions and/or feedback, reach out via kelvinian87@gmail.com.
 ### License
-*{The MIT License (MIT)}*
+*The MIT License (MIT)*
 
-Copyright (c) {2020} **{Kevin Mathenge}**
+Copyright (c) 2020 **Kevin Mathenge**
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
