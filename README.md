@@ -1,5 +1,5 @@
 # Kevin's Portfolio
-#### 10-2-2020 By **Kevin Mathenge**
+#### Date: 10-2-2020. By **Kevin Mathenge**
 ## Description
 The project is a brief but concise description of my professional development.
 ## Live Link
