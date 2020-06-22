@@ -1,103 +1,202 @@
-<html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="mt.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Kevin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kevin Mathenge</title>
+  
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/jasny-bootstrap.min.css">
+  <!-- Main Style -->
+  <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  
+  <!-- Responsive Style -->
+  <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+  
+  <!--Fonts-->
+  <link rel="stylesheet" media="screen" href="assets/fonts/font-awesome/font-awesome.min.css">
+
+  <!-- Extras -->
+  <link rel="stylesheet" type="text/css" href="assets/extras/animate.css">
+  <link rel="stylesheet" type="text/css" href="assets/extras/lightbox.css">
+  <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.carousel.css">
+  <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.theme.css">
+  <link rel="stylesheet" type="text/css" href="assets/extras/owl/owl.transitions.css">
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+                <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+                <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+              <![endif]-->
 </head>
-
 <body>
-    <div class="topnav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact Me</a>
-      
+	 
+  <!-- Header Section Start -->
+  <div id="header">
+    <div class="container">
+      <div class="col-md-12 top-header">
+        <div class="logo-menu">
+          <div class="logo pull-left wow fadeInDown animated" data-wow-delay=".2s">
+            <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+          </div> 
+          <div class="pull-right wow fadeInDown animated" data-wow-delay=".2">
+            <div id="menu" data-toggle="offcanvas" data-target=".navmenu" data-canvas="body">
+              <span>menu</span>
+            </div> 
+          </div> 
+        </div>
+        <div class="sidebar-nav">
+          <!-- navigation start -->
+          <div class="navmenu navmenu-default navmenu-fixed-right offcanvas" style="" id="navigation">
+            <a href="index.html"><img class="logo" src="assets/img/logo.png" alt="logo"></a>
+            <ul class="nav navmenu-nav">
+              <li class="active"><a href="#header">Home</a></li>
+              <li><a href="#works">Portfolio</a></li>
+              <li><a href="#feedback">Contact Me</a></li>
+            </ul>
+          </div>
+          <!-- navigation End -->
+        </div>     
       </div>
-    <h1 id="home">KEVIN MATHENGE </h1>
-      <p class="me">
-       What's up internet? I'm Kevin, an upcoming developer. Welcome to my little corner <b>:)</b></p>
-       <img src="avatar.jpeg" alt="nerd">
+            <div class="row">
+        <div class="col-md-12">
+          <div class="banner text-center">
+            <h1 class="wow fadeInDown animated" data-wow-delay=".8s">Kevin Mathenge</h1>
+            <h2 class="wow fadeInDown animated" data-wow-delay=".6s">Passionate about Web and Mobile Development :)</h2>
+            <h3 class="wow fadeInDown animated" data-wow-delay=".6s">Welcome to my little world.</h2>
+              <br>
+              <br>
+              <br>
 
-    <h2 id="about">About Kevin</h2>
-        <p>"Describe yourself" is probably the hardest question one will ever come across, but here goes. 
-            Kevin is a 22 year old guy, whose love for tech knows no boundaries. 
-            Not as nerdy as one would assume, but it it's still there. </p>
-          <p>  I only recently dived into the software development world, despite taking up IT at university. </p>
-        <img src="pro.jpg" alt="Kevin" height="500px" width="500px" class="pro"> 
-    
-    <h3>Educational Background</h3>
-        <p> I studied at Anestar Bahati High School, later joining Zetech University in 2016 to study IT. I was really excited to join uni,
-             not knowing the joke that tech studies is in Kenya. I studied till the last semester of my 2nd year, dropping out before the next semester.</p>
-        <p>It was then that a friend mentioned Moringa school, and I can proudly say and reaffirm joining it is the best decision I've ever made. 
-            I firmly believe the combined effort of Moringa School and I shall enable me become the  software developer I've always wanted to be.</p>
-    
-    <h3>Work experience</h3>
-        <p>Being fairly young, I do not have as much experience as I'd like, although I worked with the government during the NEMIS program roll out. </p>
-        <p>I have made a handful of small websites, though none of them ever went live. It was purely for educational purposes.</p>
+            <a href="#aboutme" class="btn btn-border lg wow fadeInLeft animated" data-wow-delay="1.0s">About Kevin</a>
+          <!-- <a href="#" class="btn btn-common lg wow fadeInRight animated" data-wow-delay="1.0s">Learn More</a> -->
+            <div class="scroll">
+              <a href="#works"><i class="fa fa-angle-down wow fadeInUp animated" data-wow-delay="1.2s"></i></a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Header Section End -->
+  <div class="jumbotron" id="aboutme">
+    <div class="container">
+      <h3 style="text-align: left;">About Kevin</h3>  
+      <p>Kevin is your regular nerd, totally hooked to computers. I am outgoing and social, usually very eager to meet new people and the experience that comes with it.</p>
+      <br>
+      <h2 class="text-primary stm-font">Skills</h2>
+                    <p>Mobile Development and a bit of Web Development.</p>
+                    <br>
+                    <h2 class="text-primary stm-font">Tools</h2>
+                    <p>&#10004; Java, Android and Spark</p>
+                    <p>&#10004; Javascript, Angular</p>
+                    <p>&#10004; HTML5, CSS</p>
+                    <p>&#10004; Postgresql, Firebase</p>
+                    <p>&#10004; Version Control - Git</p>
+      
+  </div>
+</div>
 
-    <h3>My Projects</h3>
-        <ol>
-            <li> <a href="https://kev87ian.github.io/Live_the_Dash/" target="blank">Live The Dash</a></li>
-                    <p>This project is the website of a local tour company. I made it using HTML and CSS</p>
-            <li> <a href="https://nelvinom.github.io/talanta-1/" target="blank"> Talanta Kenya</a> </li>
-                    <p>This is the website of Talanta Kenya, a local NGO that offers the youth a platform to showcase their talents and abilities. 
-                        We worked on it as a team. </p>
-                    <p>We used CSS and HTML on this project</p>
-        </ol>
-        
+  <!-- Work Section Start -->
+  <section id="works">
+    <div class="container" style="align-items: left;">
+      <div class="row">
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s">Some of <br>My <br><span>Works</span></h1>
+        <div class="col-md-7 col-lg-7 grid-left wow fadeInLeft animated" data-wow-delay="1.2s">
 
-    <h3>Hobbies and Interests</h3>
-        <div>
-            <ol style="list-style-type:circle;">
-                <li>Watching Football. <span style="color: red"> <i>Glory Man United.</i> </span> </li>
-                <li>Reading, mostly tech news and novels with supernatural themes</li>
-                <li>Gaming.</li>
-                <li>Huge, huge fan of cats.</li >
-                    <img src="https://media.giphy.com/media/13CoXDiaCcCoyk/giphy.gif" alt="furbaby" height="200px" width="200px" class="cat">
+          <div class="card" style="width:400px">
+            <div class="card-body">
+              <h4 class="card-title">An Akan calculator</h4>
+              <a href="https://github.com/kev87ian/AKAN" class="btn btn-primary">Visit Site</a>
+           </div>
+          </div>
+
+          <div class="card" style="width:400px">
+            <div class="card-body">
+              <h4 class="card-title">An app that allows user to search for books</h4>
+              <a href="https://github.com/kev87ian/Books" class="btn btn-primary">View Project</a>
+           </div>
+          </div>
+
+
+            <div class="card" style="width:400px">
+            <div class="card-body">
+              <h4 class="card-title">A site that allows users to post, upvote downvote and delete quotes.</h4>
+              <a href="https://kev87ian.github.io/Quoted" class="btn btn-primary">Visit Site</a>
+           </div>
+          </div>
+
+            <div class="more">
+              <a href="github.com/kev87ian"><i class="fa fa-arrow-circle-right"></i>BROWSE ALL</a>
             </div>
-            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Work Section End  -->
+
+  <!-- Feedback Section Start -->
+  <section id="feedback">
+    <div class="container">
+      <div class="row">
+        <h1 class="section-title wow fadeInLeft animated" data-wow-delay=".6s"><span>Contact Me</span></h1>
+        <div class="col-sm-6 col-md-6 wow fadeInLeft animated" data-wow-delay="1.4s">
+          <form action="" name="contact">
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-user"></i></span>
+              <input type="text" name="name" class="form-control" placeholder="Your name" required>
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+              <input type="email" name="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-fire"></i></span>
+              <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+            </div>
+            <div class="input-group">
+              <span class="input-group-addon"><i class="fa fa-comments"></i></span>
+              <textarea name="message" class="form-control large" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-green"><i class="fa fa-envelope-o"></i>Send</button>
+          </form>
+        </div>
+        <div class="col-sm-4 col-md-4 col-md-offset-2 wow fadeInRight animated" data-wow-delay="1.4s">
+          <div class="address" id="address">
+            <h2>Contact Info</h2>
+            <ul class="contact-info">
+              <li><i class="fa fa-mobile"></i> +254715 055 098</li>
+              <li><i class="fa fa-envelope-o"></i> kelvinian87@gmail.com</li>
+            </ul>
           
-    <div  id="contact">
-     <h2>Contact Me <span style='font-size:30px;'>&#9997;</span> </h2>
-         <ul>
-             <li> <i class="material-icons">
-                    email
-             </i>Email: kevthedev@gmail.com</li>
-                 <li><i class="material-icons">
-                    phone
-                    </i>Cell: 0715 092 345</li>
-                </ul>
-                 </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- jQuery Load -->
+  <script src="assets/js/jquery-min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- WOW JS plugin for animation -->
+  <script src="assets/js/wow.js"></script>
+  <!-- All JS plugin Triggers -->
+  <script src="assets/js/main.js"></script>
+  <!-- Smooth scroll -->
+  <script src="assets/js/smooth-scroll.js"></script>
+  <!--  -->
+  <script src="assets/js/jasny-bootstrap.min.js"></script>
+  <!-- Counterup -->
+  <script src="assets/js/jquery.counterup.min.js"></script>
+  <!-- waypoints -->
+  <script src="assets/js/waypoints.min.js"></script>
+  <!-- circle progress -->
+  <script src="assets/js/circle-progress.js"></script>
+  <!-- owl carousel -->
+  <script src="assets/js/owl.carousel.js"></script>
+  <!-- lightbox -->
+  <script src="assets/js/lightbox.min.js"></script>
 
-                 <form>
-                    First name:<br>
-                    <input type="text" name="firstname"><br>
-                    Last name:<br>
-                    <input type="text" name="lastname"><br>
-                    Email: <br>
-                    <input type="text" name="email"><br>    
-                    Phone Number: <br>
-                    <input type="number" name="number"> <br>
-                    Message: <br>
-                    <input type="text" name="message"> <br>
-                    <input type="submit" value="Submit">
-                 </form>
-   
-    <footer class="footer">
-         <p class="soc">My social media handles; </p>
-
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-youtube"></a> 
-        <a href="#" class="fa fa-instagram"></a>
-    </footer>
- 
-  </body>
+</body>
 </html>
