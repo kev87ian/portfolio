@@ -611,7 +611,7 @@ img {
   font-size: 15px;
 }
 #feedback .address .social-icon li {
-  float: left;
+  float: right;
 }
 #feedback .address .social-icon li a {
   display: inline-block;
